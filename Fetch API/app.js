@@ -10,6 +10,7 @@ function getText()
     document.querySelector('#output').innerHTML = data;
   }).catch(function(err){
     console.log(err);
+    alert(err);
   });
 }
 
