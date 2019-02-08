@@ -15,13 +15,12 @@ const singleton = (function(){
 
 
   return {
-    getInstance: function(){
-      createInstance();
-    }
+    getInstance: createInstance
   };
 })();
 
 
+singleton.getInstance();
 singleton.getInstance();
 singleton.getInstance();
 
